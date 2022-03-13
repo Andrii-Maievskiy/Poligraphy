@@ -51,23 +51,35 @@ li {
     padding:0 15px;
 }
 
+.title {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+
 .header {
     background-color: #05022D;
     padding: 13px 0 17px;
+
     &__logo img {
         width: 77px;
         height: 70px;
     }
+
     &__link {
         font-size: 12px;
         line-height: 25px;
         color: #fff;
     }
+
     &__inner {
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
+
      &__list {
         li {
             display: inline-block;
@@ -76,6 +88,7 @@ li {
             margin-left: 15px;
         } 
     }
+
     &__contacts {
         margin-left: 18px;
         width: 132px;
@@ -83,6 +96,7 @@ li {
         justify-content: space-between;
         margin-top: 13px;
     }
+
     &__contacts-tel {
         font-weight: 600;
         font-size: 14px;
@@ -90,6 +104,7 @@ li {
         color: #fff;
         margin-left: 48px;
     }
+
     &__wrapper {
         width: 557px;
         display: flex;
@@ -101,14 +116,16 @@ li {
     width: 1920px;
     height: 768px;
     position: relative;
+
     &__inner {
         position: absolute;
         top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
     &__title {
-        font-family: 'Montserrat' sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         font-size: 60px;
         line-height: 65px;
@@ -116,6 +133,7 @@ li {
         text-align: center;
         color: #fff; 
     }
+
     &__content {
         font-weight: 600;
         font-size: 25px;
@@ -123,6 +141,72 @@ li {
         color: #fff;
     }
 }
+
+.customers {
+    margin-top: 140px;
+    padding-bottom: 113px;
+
+    &__title {
+        margin-bottom: 37px;
+    }
+    
+    &__inner {
+        display: flex;
+        justify-content: center;
+    }
+    
+    &__list {
+        margin-left: 80px;
+    }
+    
+    &__list-item {
+        width: 459px;
+        margin-bottom: 34px;
+        position: relative;
+        padding-left: 80px;
+        &::before {
+            position: absolute;
+            content: url(../images/chek.svg);
+            top: -6px;
+            left: 0;
+        }
+    }
+}
+
+.cooperation {
+    margin: 140px 0px;
+    &__list-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        margin-bottom: 133px;
+    }
+    &__list-big {
+        width: 478px;
+    }
+    &__list-small {
+        width: 378px;
+    }
+    &__list-item {
+        margin-bottom: 50px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+    &__list-num {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 45px;
+        color: #B798E0;
+        width: 47px;
+        margin-right: 32px;
+    }
+}
+
+
+
 
 
 
